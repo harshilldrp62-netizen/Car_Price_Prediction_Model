@@ -36,7 +36,6 @@ and instantly receive the predicted market price.
 | NumPy        | Numerical Computing |
 | Scikit-Learn | Machine Learning    |
 | Streamlit    | Dashboard           |
-| Matplotlib   | Visualization       |
 | Joblib       | Model Saving        |
 
 
