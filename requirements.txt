@@ -6,3 +6,4 @@ streamlit
 scikit-learn
 pickle
 joblib
+sklearn
