@@ -30,5 +30,5 @@ col1, col2, col3 = st.columns([1, 1, 1])
 with col2:
     if st.button("Predict Price"):
         input = pd.DataFrame([[str(model_name),str(company),year,int(kms_input),str(fuel)]],columns=['name','company','year','kms_driven','fuel_type'])
-        prediction = int(model.predict(input))
-        st.success(f'The estimated price is ₹{prediction}',width='stretch')        
+        prediction = model.predict(input)
+        st.success(f'The estimated price is ₹{print(prediction)}',width='stretch')        
